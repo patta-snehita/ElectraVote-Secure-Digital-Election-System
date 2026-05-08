@@ -18,40 +18,39 @@ Finite State Machine (FSM):
 
 The voting machine operates using the following FSM states:
 
-s0 - Idle State 
-s1 - Authentication State 
-s2 - Voting State 
-s3 -Confirmation State 
- s4 - Result State 
+- s0 - Idle State 
+- s1 - Authentication State 
+- s2 - Voting State 
+- s3 -Confirmation State 
+- s4 - Result State 
  
 State Flow:
 Idle → Authentication → Voting → Confirmation → Result
 
 
 Inputs:
-
-clk - System Clock 
-rst - Reset Signal 
-go - Starts Authentication 
-pin[3:0] - User Password 
-P_1 - Vote for Candidate 1 
-P_2 - Vote for Candidate 2 
-P_3 - Vote for Candidate 3 
-P_4 - Vote for Candidate 4 
-result - Displays Final Result 
+- clk - System Clock
+- rst - Reset Signal 
+- go - Starts Authentication 
+- pin[3:0] - User Password
+- P_1 - Vote for Candidate 1 
+- P_2 - Vote for Candidate 2 
+- P_3 - Vote for Candidate 3
+- P_4 - Vote for Candidate 4
+- result - Displays Final Result 
 
 
 Outputs:
 
 
-pcount_1 - Vote Count of Candidate 1 
-pcount_2 - Vote Count of Candidate 2 
-pcount_3 - Vote Count of Candidate 3 
-pcount_4 - Vote Count of Candidate 4 
-authenticated - Authentication Status 
-vote_done - Vote Completion Signal 
-state - Current FSM State 
-winner - Winning Candidate 
+- pcount_1 - Vote Count of Candidate 1 
+- pcount_2 - Vote Count of Candidate 2 
+- pcount_3 - Vote Count of Candidate 3 
+- pcount_4 - Vote Count of Candidate 4 
+- authenticated - Authentication Status 
+- vote_done - Vote Completion Signal 
+- state - Current FSM State 
+- winner - Winning Candidate 
 
 
 Working Principle:
