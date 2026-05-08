@@ -31,7 +31,6 @@ initial
 begin
 rst=1;
 #10 rst=0;
-$monitor("state is %b,winner is %b",state,winner);
 #20 go=1;
 pin=4'b0110;
 #10;
@@ -105,7 +104,7 @@ P_4 = 1;
 P_4 = 0; result = 1;
 #30;
 result=0;
-
+$display("state is %b,winner is %b",state,winner);
 end
 endmodule
 
