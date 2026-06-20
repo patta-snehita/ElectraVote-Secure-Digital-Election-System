@@ -203,7 +203,5 @@ This project strengthened my understanding of:
 ### Developed by
 
 **Patta Snehita**
-
 Electrical Engineering
-
 RTL Design | FPGA | Digital Design | VLSI Enthusiast
